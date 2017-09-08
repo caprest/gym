@@ -507,3 +507,11 @@ register(
     entry_point='gym.envs.safety:OffSwitchCartpoleProbEnv',
     max_episode_steps=200,
 )
+
+# underacuated_envs
+register(
+    id="DoubleCartPole-v0",
+    entry_point='gym.envs.underactuated:DoubleCartPoleEnv',
+    max_episode_steps=1000,
+)
+
